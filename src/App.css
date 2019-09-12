@@ -1,0 +1,35 @@
+body{
+  background-image: url('https://beaverdam-littlefieldfire.org/wp-content/uploads/2018/10/MASTER-BG.jpg');
+  background-size: cover; 
+  font-family: sans-serif;
+  color: rgb(245,245,245);
+  text-align: center;
+ 
+}
+search-bar{
+  padding: 50%;
+}
+
+.mini-rating{
+  color: #ffc107;
+  font-family: Verdana, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  
+}
+.movie-title{
+  background-color:#ffc107cb;;
+}
+.infocard{
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  
+  background-color: #ffc107a6;
+  margin:30px;
+}
+.plusbutton{
+  display: flex;
+ margin: 29px;
+}
