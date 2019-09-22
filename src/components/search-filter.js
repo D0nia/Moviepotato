@@ -1,7 +1,5 @@
-import React, { Component } from 'react';
-import {InputGroup,FormControl, Button} from 'react-bootstrap';
-import SearchField from "react-search-field";
-import './App.css'
+import React from 'react';
+import '../App.css'
 
 
 

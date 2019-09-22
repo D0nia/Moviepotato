@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import {Card, Row} from 'react-bootstrap';
 import StarRatingComponent from 'react-star-rating-component';
-
-import './App.css'
+import '../App.css'
 
 
 

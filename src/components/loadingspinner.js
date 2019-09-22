@@ -1,11 +1,12 @@
 
 import React , {Component} from 'react';
-import Loader from 'react-loader-spinner'
+import { Spinner } from 'reactstrap';
+
 
 const Hoc = ( WrappedComponent ) => {
    return class Hoc extends Component {
       render (){
-            return this.props.loading ? <Loader type="Grid" color="#ffc107" height={80} width={80} /> : <WrappedComponent {...this.props} />
+            return this.props.loading ?  <Spinner type="grow" color="danger" /> : <WrappedComponent {...this.props} />
          }       
    }
 }
